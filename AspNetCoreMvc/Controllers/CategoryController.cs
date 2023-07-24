@@ -1,9 +1,8 @@
-﻿using ECommerce.DataAccess.Data;
+﻿using Microsoft.AspNetCore.Mvc;
 using ECommerce.DataAccess.Repository.IRepository;
 using ECommerce.Models;
-using Microsoft.AspNetCore.Mvc;
 
-namespace ECommerce.Controllers
+namespace ECommerce.WebAspNet.Controllers
 {
     public class CategoryController : Controller
     {

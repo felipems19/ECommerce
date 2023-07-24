@@ -1,7 +1,7 @@
+using Microsoft.EntityFrameworkCore;
 using ECommerce.DataAccess.Data;
 using ECommerce.DataAccess.Repository;
 using ECommerce.DataAccess.Repository.IRepository;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

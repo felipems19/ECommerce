@@ -1,5 +1,5 @@
-﻿using ECommerce.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ECommerce.Models;
 
 namespace ECommerce.DataAccess.Data
 {
