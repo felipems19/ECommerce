@@ -1,4 +1,4 @@
-﻿using ECommerce.Data;
+﻿using ECommerce.DataAccess.Data;
 using ECommerce.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -42,7 +42,7 @@ namespace ECommerce.Controllers
 
         public IActionResult Edit(int? id)
         {
-            if(id == null || id == 0)
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
@@ -50,7 +50,7 @@ namespace ECommerce.Controllers
             Category? categoryFromDb = _db.Categories.Find(id);
             //Category? categoryFromDb1 = _db.Categories.FirstOrDefault(u=>u.Id==id);
             //Category? categoryFromDb2 = _db.Categories.Where(u=>u.Id==id).FirstOrDefault();
-            
+
             if (categoryFromDb == null)
             {
                 return NotFound();

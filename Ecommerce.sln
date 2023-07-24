@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMvc", "AspNetCoreMvc\AspNetCoreMvc.csproj", "{CD076F35-5F81-4F62-8892-76510D85B99A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.WebAspNet", "AspNetCoreMvc\ECommerce.WebAspNet.csproj", "{CD076F35-5F81-4F62-8892-76510D85B99A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.DataAccess", "Ecommerce.DataAccess\Ecommerce.DataAccess.csproj", "{5E4935FA-E6FB-4226-8340-BE26783B8005}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.DataAccess", "Ecommerce.DataAccess\ECommerce.DataAccess.csproj", "{5E4935FA-E6FB-4226-8340-BE26783B8005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Models", "Ecommerce.Models\Ecommerce.Models.csproj", "{525A5014-7E37-470A-A9F3-1BF5EE09B3C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Models", "Ecommerce.Models\ECommerce.Models.csproj", "{525A5014-7E37-470A-A9F3-1BF5EE09B3C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecommerce.Utility", "Ecommerce.Utility\Ecommerce.Utility.csproj", "{2E160537-4D4A-4CCD-8607-D01D712247B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Utility", "Ecommerce.Utility\ECommerce.Utility.csproj", "{2E160537-4D4A-4CCD-8607-D01D712247B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
